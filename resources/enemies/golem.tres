@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="EnemyData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/enemies/enemy_data.gd" id="1_data"]
+
+[resource]
+script = ExtResource("1_data")
+enemy_name = "Golem"
+max_hp = 220.0
+speed = 3.0
+damage = 22.0
+xp_value = 15.0
+gold_chance = 0.5
+size = 2.5
+color = Color(0.25, 0.35, 0.6, 1)
+is_boss = false
+unlock_time = 300.0
+spawn_weight = 1.2

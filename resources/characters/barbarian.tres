@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CharacterData" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/player/character_data.gd" id="1_char"]
+[ext_resource type="PackedScene" path="res://assets/models/characters/barbarian.fbx" id="2_model"]
+[ext_resource type="Resource" path="res://resources/characters/barbarian_stats.tres" id="3_stats"]
+
+[resource]
+script = ExtResource("1_char")
+display_name = "Barbarian"
+description = "Tough melee fighter. Swings an axe in a 90° arc toward the nearest enemy."
+model = ExtResource("2_model")
+model_scale = 0.9
+base_stats = ExtResource("3_stats")
+starting_weapon = "axe"
+theme_color = Color(1, 0.55, 0.25, 1)
